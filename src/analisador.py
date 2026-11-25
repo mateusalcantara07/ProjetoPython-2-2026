@@ -3,7 +3,7 @@ import pandas as pd
 import matplotlib.pyplot as plt
 
 
-class Analisador:
+class AnalisadorDeDados:
 
     def __init__(self):
         self.dados = pd.read_csv("data/StudentsPerformance.csv")

@@ -1,7 +1,7 @@
 
-from src.analisador import Analisador
+from src.analisador import AnalisadorDeDados
 
-analisador = Analisador()
+analisador = AnalisadorDeDados()
 
 while True:
     print("\n===== ANÁLISE DE DESEMPENHO DOS ESTUDANTES =====")
